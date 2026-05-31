@@ -162,69 +162,115 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named formatter
+# Target rules for targets named print
 
 # Build rule for target.
-formatter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter
-.PHONY : formatter
+print: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 print
+.PHONY : print
 
 # fast build rule for target.
-formatter/fast:
-	$(MAKE) $(MAKESILENT) -f formatter_lib/CMakeFiles/formatter.dir/build.make formatter_lib/CMakeFiles/formatter.dir/build
-.PHONY : formatter/fast
+print/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/build
+.PHONY : print/fast
 
 #=============================================================================
-# Target rules for targets named formatter_ex
+# Target rules for targets named example1
 
 # Build rule for target.
-formatter_ex: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_ex
-.PHONY : formatter_ex
+example1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example1
+.PHONY : example1
 
 # fast build rule for target.
-formatter_ex/fast:
-	$(MAKE) $(MAKESILENT) -f formatter_ex_lib/CMakeFiles/formatter_ex.dir/build.make formatter_ex_lib/CMakeFiles/formatter_ex.dir/build
-.PHONY : formatter_ex/fast
+example1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/build
+.PHONY : example1/fast
 
 #=============================================================================
-# Target rules for targets named hello_world
+# Target rules for targets named example2
 
 # Build rule for target.
-hello_world: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_world
-.PHONY : hello_world
+example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example2
+.PHONY : example2
 
 # fast build rule for target.
-hello_world/fast:
-	$(MAKE) $(MAKESILENT) -f hello_world_application/CMakeFiles/hello_world.dir/build.make hello_world_application/CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
+example2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/build
+.PHONY : example2/fast
 
-#=============================================================================
-# Target rules for targets named solver_lib
+examples/example1.o: examples/example1.cpp.o
+.PHONY : examples/example1.o
 
-# Build rule for target.
-solver_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solver_lib
-.PHONY : solver_lib
+# target to build an object file
+examples/example1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/examples/example1.cpp.o
+.PHONY : examples/example1.cpp.o
 
-# fast build rule for target.
-solver_lib/fast:
-	$(MAKE) $(MAKESILENT) -f solver_lib/CMakeFiles/solver_lib.dir/build.make solver_lib/CMakeFiles/solver_lib.dir/build
-.PHONY : solver_lib/fast
+examples/example1.i: examples/example1.cpp.i
+.PHONY : examples/example1.i
 
-#=============================================================================
-# Target rules for targets named solver
+# target to preprocess a source file
+examples/example1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/examples/example1.cpp.i
+.PHONY : examples/example1.cpp.i
 
-# Build rule for target.
-solver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solver
-.PHONY : solver
+examples/example1.s: examples/example1.cpp.s
+.PHONY : examples/example1.s
 
-# fast build rule for target.
-solver/fast:
-	$(MAKE) $(MAKESILENT) -f solver_application/CMakeFiles/solver.dir/build.make solver_application/CMakeFiles/solver.dir/build
-.PHONY : solver/fast
+# target to generate assembly for a file
+examples/example1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/examples/example1.cpp.s
+.PHONY : examples/example1.cpp.s
+
+examples/example2.o: examples/example2.cpp.o
+.PHONY : examples/example2.o
+
+# target to build an object file
+examples/example2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/examples/example2.cpp.o
+.PHONY : examples/example2.cpp.o
+
+examples/example2.i: examples/example2.cpp.i
+.PHONY : examples/example2.i
+
+# target to preprocess a source file
+examples/example2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/examples/example2.cpp.i
+.PHONY : examples/example2.cpp.i
+
+examples/example2.s: examples/example2.cpp.s
+.PHONY : examples/example2.s
+
+# target to generate assembly for a file
+examples/example2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/examples/example2.cpp.s
+.PHONY : examples/example2.cpp.s
+
+sources/print.o: sources/print.cpp.o
+.PHONY : sources/print.o
+
+# target to build an object file
+sources/print.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/sources/print.cpp.o
+.PHONY : sources/print.cpp.o
+
+sources/print.i: sources/print.cpp.i
+.PHONY : sources/print.i
+
+# target to preprocess a source file
+sources/print.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/sources/print.cpp.i
+.PHONY : sources/print.cpp.i
+
+sources/print.s: sources/print.cpp.s
+.PHONY : sources/print.s
+
+# target to generate assembly for a file
+sources/print.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/print.dir/build.make CMakeFiles/print.dir/sources/print.cpp.s
+.PHONY : sources/print.cpp.s
 
 # Help Target
 help:
@@ -238,11 +284,18 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... formatter"
-	@echo "... formatter_ex"
-	@echo "... hello_world"
-	@echo "... solver"
-	@echo "... solver_lib"
+	@echo "... example1"
+	@echo "... example2"
+	@echo "... print"
+	@echo "... examples/example1.o"
+	@echo "... examples/example1.i"
+	@echo "... examples/example1.s"
+	@echo "... examples/example2.o"
+	@echo "... examples/example2.i"
+	@echo "... examples/example2.s"
+	@echo "... sources/print.o"
+	@echo "... sources/print.i"
+	@echo "... sources/print.s"
 .PHONY : help
 
 

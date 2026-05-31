@@ -11,11 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
-  "/home/alex/gest475/workspace/projects/lab03/formatter_ex_lib/CMakeLists.txt"
-  "/home/alex/gest475/workspace/projects/lab03/formatter_lib/CMakeLists.txt"
-  "/home/alex/gest475/workspace/projects/lab03/hello_world_application/CMakeLists.txt"
-  "/home/alex/gest475/workspace/projects/lab03/solver_application/CMakeLists.txt"
-  "/home/alex/gest475/workspace/projects/lab03/solver_lib/CMakeLists.txt"
   "/usr/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-4.2/Modules/CMakeCInformation.cmake"
@@ -144,18 +139,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "formatter_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "formatter_ex_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "hello_world_application/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "solver_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "solver_application/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "formatter_lib/CMakeFiles/formatter.dir/DependInfo.cmake"
-  "formatter_ex_lib/CMakeFiles/formatter_ex.dir/DependInfo.cmake"
-  "hello_world_application/CMakeFiles/hello_world.dir/DependInfo.cmake"
-  "solver_lib/CMakeFiles/solver_lib.dir/DependInfo.cmake"
-  "solver_application/CMakeFiles/solver.dir/DependInfo.cmake"
+  "CMakeFiles/print.dir/DependInfo.cmake"
+  "CMakeFiles/example1.dir/DependInfo.cmake"
+  "CMakeFiles/example2.dir/DependInfo.cmake"
   )

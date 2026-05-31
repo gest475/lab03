@@ -1,0 +1,2 @@
+/home/alex/gest475/workspace/projects/lab03/install/lib/libprint.a
+/home/alex/gest475/workspace/projects/lab03/install/include/print.hpp

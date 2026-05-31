@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/alex/gest475/workspace/projects/lab03/build/cmake_install.cmake",
+		"/home/alex/gest475/workspace/projects/lab03/build/formatter_lib/cmake_install.cmake",
+		"/home/alex/gest475/workspace/projects/lab03/build/formatter_ex_lib/cmake_install.cmake",
+		"/home/alex/gest475/workspace/projects/lab03/build/hello_world_application/cmake_install.cmake",
+		"/home/alex/gest475/workspace/projects/lab03/build/solver_lib/cmake_install.cmake",
+		"/home/alex/gest475/workspace/projects/lab03/build/solver_application/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
